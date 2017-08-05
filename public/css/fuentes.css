@@ -1,0 +1,16 @@
+
+    @font-face{
+    font-family: 'russia';
+        src: url('../fuentes/russia/russia.eot');
+        src: local('☺'), url('../fuentes/russia/russia.woff') format('woff'), url('../fuentes/russia/russia.ttf') format('truetype'), url('../fuentes/russia/russia.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;  
+    }    
+    @font-face{
+    font-family: 'dusha';
+        src: url('../fuentes/dusha/dusha.eot');
+        src: local('☺'), url('../fuentes/dusha/dusha.woff') format('woff'), url('../fuentes/dusha/dusha.ttf') format('truetype'), url('../fuentes/dusha/dusha.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;  
+    }
+
