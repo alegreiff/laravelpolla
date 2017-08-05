@@ -16,7 +16,7 @@
   </div>
   <!-- Navigation Tabs -->
   <q-tabs slot="navigation">
-    <q-tab icon="mail" route="/layout" exact replace>BORRAR</q-tab>
+    <q-tab icon="mail" route="/layout" exact replace>JAIME</q-tab>
     
   </q-tabs>
   <!-- Left-side Drawer -->

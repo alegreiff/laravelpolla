@@ -76441,7 +76441,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "exact": "",
       "replace": ""
     }
-  }, [_vm._v("BORRAR")])], 1), _vm._v(" "), _c('q-drawer', {
+  }, [_vm._v("JAIME")])], 1), _vm._v(" "), _c('q-drawer', {
     ref: "leftDrawer"
   }, [_c('div', {
     staticClass: "toolbar"
