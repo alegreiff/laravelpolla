@@ -76442,7 +76442,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "exact": "",
       "replace": ""
     }
-  }, [_vm._v("Mails")]), _vm._v(" "), _c('q-tab', {
+  }, [_vm._v("BORRAR")]), _vm._v(" "), _c('q-tab', {
     attrs: {
       "icon": "alarm",
       "route": "/layout/alarm",
