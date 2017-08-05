@@ -76380,7 +76380,6 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 //
 //
 //
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -76442,21 +76441,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "exact": "",
       "replace": ""
     }
-  }, [_vm._v("BORRAR")]), _vm._v(" "), _c('q-tab', {
-    attrs: {
-      "icon": "alarm",
-      "route": "/layout/alarm",
-      "exact": "",
-      "replace": ""
-    }
-  }, [_vm._v("Alarms")]), _vm._v(" "), _c('q-tab', {
-    attrs: {
-      "icon": "help",
-      "route": "/layout/help",
-      "exact": "",
-      "replace": ""
-    }
-  }, [_vm._v("Help")])], 1), _vm._v(" "), _c('q-drawer', {
+  }, [_vm._v("BORRAR")])], 1), _vm._v(" "), _c('q-drawer', {
     ref: "leftDrawer"
   }, [_c('div', {
     staticClass: "toolbar"

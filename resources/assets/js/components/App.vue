@@ -17,8 +17,7 @@
   <!-- Navigation Tabs -->
   <q-tabs slot="navigation">
     <q-tab icon="mail" route="/layout" exact replace>BORRAR</q-tab>
-    <q-tab icon="alarm" route="/layout/alarm" exact replace>Alarms</q-tab>
-    <q-tab icon="help" route="/layout/help" exact replace>Help</q-tab>
+    
   </q-tabs>
   <!-- Left-side Drawer -->
   <q-drawer ref="leftDrawer">
