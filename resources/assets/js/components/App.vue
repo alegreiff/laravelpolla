@@ -16,7 +16,7 @@
   </div>
   <!-- Navigation Tabs -->
   <q-tabs slot="navigation">
-    <q-tab icon="mail" route="/layout" exact replace>JAIME de GREIFF</q-tab>
+    <q-tab icon="mail" route="/layout" exact replace>JAIME de GREIFF CABEZAS</q-tab>
     
   </q-tabs>
   <!-- Left-side Drawer -->
