@@ -2,28 +2,6 @@ import { isEmpty } from 'lodash'
 import { setHttpToken } from '../../../helpers'
 import localforage from 'localforage'
 
-/*export const register = ({dispatch}, {payload, context}) => {
-    
-    return axios.post('/api/register', payload).then((response) =>{
-        console.log(response)    
-    }).catch((error) => {
-        context.errors = error.response.data.errors
-    })
-}*/
-
-/*
-export const login = ({ dispatch }, { payload, context }) => {
-    return axios.post('/api/login', payload).then((response) => {
-        dispatch('setToken', response.data.meta.token).then(() => {
-            dispatch('fetchUser')
-        })
-    }).catch((error) => {
-        console.log("LOGIN ERROR")
-        context.errors = error.response.data.errors
-    })
-}
-*/
-
 export const login = ({dispatch}, {payload, context}) => {
     return axios.post('/api/login', payload).then((response) =>{
       console.log(response)
@@ -31,7 +9,6 @@ export const login = ({dispatch}, {payload, context}) => {
         dispatch('fetchUser')
       })
     }).catch((error) => {
-        //console.log("ERROR EN LOGIN")
         context.errors = error.response.data.errors
         return Promise.reject(error)
     })
@@ -56,30 +33,6 @@ export const fetchUser = ({ commit }) => {
     })
 }
 
-
-/*export const fetchUser = ({ commit }) => {
-    return axios.get('/api/me').then((response) => {
-        commit('setAuthenticated', true)
-        commit('setUserData', response.data.data)
-    })
-}*/
-
-
-
-
-/*export const setToken = ({ commit, dispatch }, token) => {
-    if (isEmpty(token)) {
-        return dispatch('checkTokenExists').then((token) => {
-            setHttpToken(token)
-        })
-    }
-
-    commit('setToken', token)
-    setHttpToken(token)
-}*/
-
-
-
 export const register = ({ dispatch }, { payload, context }) => {
     return axios.post('/api/register', payload).then((response) => {
         dispatch('setToken', response.data.meta.token).then(() => {
@@ -91,14 +44,6 @@ export const register = ({ dispatch }, { payload, context }) => {
         return Promise.reject(error)
     })
 }
-
-
-/*export const fetchUser = ({ commit }) => {
-    return axios.get('/api/me').then((response) => {
-        commit('setAuthenticated', true)
-        commit('setUserData', response.data.data)
-    })
-}*/
 
 export const logout = ({ dispatch }) => {
     console.log('saliendo...')

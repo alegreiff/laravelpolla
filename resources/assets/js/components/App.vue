@@ -7,7 +7,7 @@
       <i>menu</i>
     </button>
     <q-toolbar-title :padding="1">
-      Title
+      Nuestra Polla Russia 2018
     </q-toolbar-title>
     <!-- opens right-side drawer using its ref -->
     <button class="hide-on-drawer-visible" @click="$refs.rightDrawer.open()">

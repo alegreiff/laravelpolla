@@ -62190,28 +62190,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-/*export const register = ({dispatch}, {payload, context}) => {
-    
-    return axios.post('/api/register', payload).then((response) =>{
-        console.log(response)    
-    }).catch((error) => {
-        context.errors = error.response.data.errors
-    })
-}*/
-
-/*
-export const login = ({ dispatch }, { payload, context }) => {
-    return axios.post('/api/login', payload).then((response) => {
-        dispatch('setToken', response.data.meta.token).then(() => {
-            dispatch('fetchUser')
-        })
-    }).catch((error) => {
-        console.log("LOGIN ERROR")
-        context.errors = error.response.data.errors
-    })
-}
-*/
-
 var login = function login(_ref, _ref2) {
     var dispatch = _ref.dispatch;
     var payload = _ref2.payload,
@@ -62223,7 +62201,6 @@ var login = function login(_ref, _ref2) {
             dispatch('fetchUser');
         });
     }).catch(function (error) {
-        //console.log("ERROR EN LOGIN")
         context.errors = error.response.data.errors;
         return Promise.reject(error);
     });
@@ -62253,24 +62230,6 @@ var fetchUser = function fetchUser(_ref4) {
     });
 };
 
-/*export const fetchUser = ({ commit }) => {
-    return axios.get('/api/me').then((response) => {
-        commit('setAuthenticated', true)
-        commit('setUserData', response.data.data)
-    })
-}*/
-
-/*export const setToken = ({ commit, dispatch }, token) => {
-    if (isEmpty(token)) {
-        return dispatch('checkTokenExists').then((token) => {
-            setHttpToken(token)
-        })
-    }
-
-    commit('setToken', token)
-    setHttpToken(token)
-}*/
-
 var register = function register(_ref5, _ref6) {
     var dispatch = _ref5.dispatch;
     var payload = _ref6.payload,
@@ -62286,13 +62245,6 @@ var register = function register(_ref5, _ref6) {
         return Promise.reject(error);
     });
 };
-
-/*export const fetchUser = ({ commit }) => {
-    return axios.get('/api/me').then((response) => {
-        commit('setAuthenticated', true)
-        commit('setUserData', response.data.data)
-    })
-}*/
 
 var logout = function logout(_ref7) {
     var dispatch = _ref7.dispatch;
@@ -76425,7 +76377,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "padding": 1
     }
-  }, [_vm._v("\n      Title\n    ")]), _vm._v(" "), _c('button', {
+  }, [_vm._v("\n      Nuestra Polla Russia 2018\n    ")]), _vm._v(" "), _c('button', {
     staticClass: "hide-on-drawer-visible",
     on: {
       "click": function($event) {
@@ -76441,7 +76393,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "exact": "",
       "replace": ""
     }
-  }, [_vm._v("JAIME de GREIFF CABEZAS")])], 1), _vm._v(" "), _c('q-drawer', {
+  }, [_vm._v("O quizás simplemente")])], 1), _vm._v(" "), _c('q-drawer', {
     ref: "leftDrawer"
   }, [_c('div', {
     staticClass: "toolbar"
