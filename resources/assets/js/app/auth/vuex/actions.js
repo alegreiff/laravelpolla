@@ -33,6 +33,15 @@ export const fetchUser = ({ commit }) => {
     })
 }
 
+/*
+    En registro exitoso:
+    1. Verificar si tiene perfil
+    SI - Ir a inicio
+    NO -    ir a perfil
+            completar perfil
+        Ir a inicio
+*/
+
 export const register = ({ dispatch }, { payload, context }) => {
     return axios.post('/api/register', payload).then((response) => {
         dispatch('setToken', response.data.meta.token).then(() => {

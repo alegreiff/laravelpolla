@@ -62230,6 +62230,15 @@ var fetchUser = function fetchUser(_ref4) {
     });
 };
 
+/*
+    En registro exitoso:
+    1. Verificar si tiene perfil
+    SI - Ir a inicio
+    NO -    ir a perfil
+            completar perfil
+        Ir a inicio
+*/
+
 var register = function register(_ref5, _ref6) {
     var dispatch = _ref5.dispatch;
     var payload = _ref6.payload,
