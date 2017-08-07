@@ -52,8 +52,6 @@ export const logout = ({ dispatch }) => {
     })
 }
 
-
-
 export const checkTokenExists = ({ commit, dispatch }, token) => {
     return localforage.getItem('authtoken').then((token) => {
         if (isEmpty(token)) {
