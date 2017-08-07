@@ -61000,7 +61000,7 @@ module.exports = Component.exports
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('p', [_vm._v("Esta es la página de inicio")])
+  return _c('p', [_vm._v("Esta es la página de inicio para agosto")])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
